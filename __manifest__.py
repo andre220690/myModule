@@ -13,4 +13,7 @@ This module provides the core of the Odoo Web Client.
     'data': [
         'view/view.xml'
     ],
+    'qweb': [
+        "static/src/xml/*.xml",
+    ],
 }
