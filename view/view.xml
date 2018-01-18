@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <template id="mymodul_menu" inherit_id="web.menu">
+            <xpath expr="." >
+                <script type="text/javascript" src="/mymodule/static/src/js/new_support.js"></script>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

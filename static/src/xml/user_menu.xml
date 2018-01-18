@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-extend="UserMenu">
+        <t t-jquery=".dropdown-menu" t-operation="prepend">
+            <li>
+                <a href="#" data-menu="new_support">New Support</a>
+            </li>
+        </t>
+    </t>
+</templates>
